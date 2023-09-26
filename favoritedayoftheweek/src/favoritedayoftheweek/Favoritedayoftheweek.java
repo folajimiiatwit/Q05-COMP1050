@@ -1,8 +1,5 @@
-/**
- * 
- */
 package favoritedayoftheweek;
-
+import java.util.Scanner;
 /**
  * 
  */
@@ -19,7 +16,9 @@ public class Favoritedayoftheweek {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner console = new Scanner(System.in);
+		System.out.print("What is your favorite day of the week?" );
+		String day = console.next();
 
 	}
 
